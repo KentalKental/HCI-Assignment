@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        
+        <div class="page">
+            <div class="header">
+            <a href="../MainPage/index.html"><img id="logo" src="../ImageAssets/Logo_Real.svg"></a>
+            <div class="nav">
+                <a href="../ProductPage/index.html">Products</a>
+                <a href="../RecipePage/index.html">Recipes</a>
+                <a href="../AboutPage/index.html">About Us</a>
+                <a href="../ContactPage/index.html">Contact Us</a>
+            </div>
+            <a href="#"><img class="drpbtn" src="../ImageAssets/menu.svg"></a>
+
+            <ul class="dropdown">
+                <li><a href="../ProductPage/index.html">Products</a></li>
+                <li><a href="../RecipePage/index.html">Recipes</a></li>
+                <li><a href="../AboutPage/index.html">About Us</a></li>
+                <li><a href="../ContactPage/index.html">Contact Us</a></li>
+            </ul>
+               
+        </div>
+            <div class="modal">
+                
+            <form id="inquiry">
+                <h2>Contact Us</h2>
+                
+                <P>Please Enter Your Details Here !</P>
+                <hr>
+                <div class="inputs">
+                    <label for="name">Name : </label>
+                    <input type="text" id="nama" placeholder="John Doe">
+                    <div class="err" id="err">*Name must be alphabet and at least 2 letters ! </div> 
+                </div>
+
+                <div class="inputs">
+                    <label for="email">Email : </label>
+                    <input type="text" id="email" placeholder="Johndoe@email.com">
+                    <div class="err" id="errEmail">*Must contain @ and .com !</div> 
+                </div>
+
+                <div class="inputs">
+                    <label for="phone">Phone : </label>
+                    <input type="text" id="phone" placeholder="123-456-789">
+                    <div class="err" id="errphone">*Must only contain numbers and 9 - 12 digits ! </div> 
+                </div>
+
+                <div class="inputs">
+                    <label for="surname">Inquiry Type : </label>
+                    <select name="type" id="type">
+                        <option value="">Select Type</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="cs">Customer Support</option>
+                        <option value="feedback">Feedback & Suggestions</option>
+                        <option value="complaint">Complaints</option>
+                    </select>
+                    <div class="err" id="errtype">*Select an inquiry type ! </div> 
+                </div>
+
+                <div class="input-box">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">I agree to the terms and conditions</label>
+                    
+                </div>
+                <div class="err" id="errterm">*Must agree to terms and conditions</div> 
+                <hr>
+                <button class="butt" type="submit">Submit</button>
+                
+            </form>
+
+            
+        </div>
+
+        
+        <div class="footer">
+            <div class="additional-info">
+                <div class="logoPart">
+                    <img id="logoP" src="../ImageAssets/Logo_Real.svg">
+                    <p>Only the Best Cornflakes</p>
+                </div>
+                
+                <div class="info-box">
+
+                    <div class="social-medias">
+                        <h3>Get in touch with us<hr></h3>
+                        <div class="bawah">
+                            <a href="#"><img class="logoSM" src="../ImageAssets/logo_insta.svg"> </a> 
+                            <a href="#"><img class="logoSM" src="../ImageAssets/logo_youtube.svg"> </a> 
+                            <a href="#"><img class="logoSM" src="../ImageAssets/logo_twitter.svg"> </a> 
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <h3>Got Questions ?<hr></h3>
+                        <div class="bawah">
+                            <a href="#">Inquiry</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+                
+                
+                <div class="bot">
+                    <p>© 2024 VKellog's. ®, Registered trade marks. VKellog's Pty. Ltd. Authorized user. TM Trade Mark. VKellog's Pty. Ltd. is a member of the VKellog's Group.</p>
+                </div>
+
+            
+        </div>
+        </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>

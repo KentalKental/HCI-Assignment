@@ -2,7 +2,7 @@ HCI Assignment - Individual Project
 
 Cereal Company Webpage
 
-Contains :
+Contains (All in HTML,CSS,JS):
 1. Home Page
 2. Products
 3. Recipes

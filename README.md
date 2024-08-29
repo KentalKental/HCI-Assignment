@@ -11,5 +11,3 @@ Contains :
 
 Image assets are in the ImageAssets folder
 All images/videos are obtained from Google image/YouTube
-
->>Start from MainPage file<<
